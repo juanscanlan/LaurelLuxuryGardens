@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/laurelgardens/static/css/main.7f093e65.css",
+    "main.js": "/laurelgardens/static/js/main.0d2d8817.js",
+    "static/media/2.jpg": "/laurelgardens/static/media/2.2905e690b87647fd4e54.jpg",
+    "static/media/testHeader.jpeg": "/laurelgardens/static/media/testHeader.2905e690b87647fd4e54.jpeg",
+    "static/media/1.jpeg": "/laurelgardens/static/media/1.e273831e4b6be3818bad.jpeg",
+    "static/media/Logo.png": "/laurelgardens/static/media/Logo.36b19412c91d1f008177.png",
+    "static/media/stolenDepaTall.jpg": "/laurelgardens/static/media/stolenDepaTall.4ca66571c106df1970ca.jpg",
+    "index.html": "/laurelgardens/index.html",
+    "main.7f093e65.css.map": "/laurelgardens/static/css/main.7f093e65.css.map",
+    "main.0d2d8817.js.map": "/laurelgardens/static/js/main.0d2d8817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f093e65.css",
+    "static/js/main.0d2d8817.js"
+  ]
+}
