@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+
+  background-color: #fff;
+  margin: 8rem -5rem 8rem 5rem;
+  width: 40rem;
+  padding: 6rem;
+  text-align: center;
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    line-height: 2.4rem;
+  }
+
+  &__paragraph {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #222222;
+    line-height: 2.5rem;
+  }
+
+  &__button {
+    font-family: Nunito;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: #c8a05d;
+    color: #fff;
+    padding: 1.5rem 3rem;
+    border-radius: 0.4rem;
+  }
+}
+
+.imageContainer {
+  width: 56rem;
+  height: 84rem;
+  flex: 1;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../Assets/Images/Description/stolenDepaTall.jpg);
+}
+
+// .image {
+//   width: 100%;
+// }

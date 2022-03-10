@@ -1,0 +1,29 @@
+.towerContainer {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 2rem;
+}
+
+.towerBlockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  &__icon {
+    font-size: 1.6rem;
+    color: #c8a05d;
+    margin-bottom: 1rem;
+    pointer-events: none;
+  }
+}
