@@ -17,13 +17,42 @@ const Display = (props) => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const currentTowerTab = props.currentTowerTab;
+  const currentHouse = props.currentHouse;
+  const currentHouseFeatures = HouseData[currentTowerTab]
+    .filter((house) => {
+      return house.name.toLowerCase() === currentHouse.toLowerCase();
+    })
+    .map((house) => house.features)[0];
+  const currentHouseImages = HouseData[currentTowerTab]
+    .filter((house) => {
+      return house.name.toLowerCase() === currentHouse.toLowerCase();
+    })
+    .map((house) => house.images)[0];
+
+  const houseFeaturesJSX = (
+    <ul className={styles.featuresContainer}>
+      {currentHouseFeatures.map((feature, index) => {
+        return (
+          <li key={index} className={styles.featuresContainer__feature}>
+            {feature}
+          </li>
+        );
+      })}
+    </ul>
+  );
 
   const changeImageHandler = (direction) => {
-    setCurrentImage((currentImage) => currentImage + direction);
-  };
+    let _nextImage = currentImage + direction;
+    let _numberImages = Object.keys(currentHouseImages).length;
 
-  const currentHouseImages = HouseData[currentTowerTab][0].images[0];
-  console.log(currentHouseImages);
+    if (_nextImage > _numberImages - 1) {
+      setCurrentImage(0);
+    } else if (_nextImage < 0) {
+      setCurrentImage(_numberImages - 1);
+    } else {
+      setCurrentImage(_nextImage);
+    }
+  };
 
   const currentImageJSX = (
     <img className={styles.imageContainer__image} src={tempImage1} />
@@ -31,12 +60,7 @@ const Display = (props) => {
 
   return (
     <div className={styles.container}>
-      <div>
-        <ul>
-          <li>Potato1</li>
-          <li>Potato1</li>
-        </ul>
-      </div>
+      <div>{houseFeaturesJSX}</div>
       <div className={styles.imageContainer}>
         <div className={styles.arrowContainer}>
           <FontAwesomeIcon

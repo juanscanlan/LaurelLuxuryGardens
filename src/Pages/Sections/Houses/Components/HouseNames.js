@@ -1,41 +1,37 @@
 import styles from "./houseNames.module.scss";
 
+import HouseData from "./HouseData";
+
 const HouseNames = (props) => {
   const currentTowerTab = props.currentTowerTab;
+  const currentHouse = props.currentHouse;
 
-  const torreBosqueCasasJSX = (
+  const torresJSX = (torre) => (
     <div className={styles.container}>
-      <div>CASA CHECHEN</div>
-      <div>CASA MANGLAR</div>
-      <div>CASA CEIBA</div>
-      <div>CASA BOSQUE</div>
-      <div>CASA JARDÍN</div>
-      <div>CASA PALMERAS</div>
-      <div>CASA ARRECIFE</div>
-      <div>CASA CEDRO</div>
-    </div>
-  );
-  const torreSelvaCasasJSX = (
-    <div className={styles.container}>
-      <div>CASA CHACÁ</div>
-      <div>CASA AGAVE</div>
-      <div>CASA ROBLE</div>
-      <div>CASA MAKULIS</div>
-    </div>
-  );
-  const torreJunglaCasasJSX = (
-    <div className={styles.container}>
-      <div>CASA LU'UM</div>
-      <div>CASA CAOBA</div>
-      <div>CASA KA'AN</div>
+      {HouseData[torre].map((value, index) => {
+        return (
+          <div
+            key={index}
+            id={value.name}
+            className={`${styles.container__house} ${
+              value.name === currentHouse
+                ? styles["container__house--active"]
+                : null
+            }`}
+            onClick={props.onClickHandlerHouse}
+          >
+            {value.name}
+          </div>
+        );
+      })}
     </div>
   );
 
   return (
     <div>
-      {currentTowerTab === "bosque" ? torreBosqueCasasJSX : null}
-      {currentTowerTab === "selva" ? torreSelvaCasasJSX : null}
-      {currentTowerTab === "jungla" ? torreJunglaCasasJSX : null}
+      {currentTowerTab === "bosque" ? torresJSX("bosque") : null}
+      {currentTowerTab === "selva" ? torresJSX("selva") : null}
+      {currentTowerTab === "jungla" ? torresJSX("jungla") : null}
     </div>
   );
 };
