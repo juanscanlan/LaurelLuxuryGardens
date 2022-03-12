@@ -1,8 +1,11 @@
 .container {
   display: flex;
-  gap: 3rem;
-  overflow: scroll;
-  padding: 1rem 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
 
   &__house {
     font-size: 1.6rem;

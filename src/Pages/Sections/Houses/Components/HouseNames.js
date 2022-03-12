@@ -14,7 +14,7 @@ const HouseNames = (props) => {
             key={index}
             id={value.name}
             className={`${styles.container__house} ${
-              value.name === currentHouse
+              value.name.toLowerCase() === currentHouse.toLowerCase()
                 ? styles["container__house--active"]
                 : null
             }`}

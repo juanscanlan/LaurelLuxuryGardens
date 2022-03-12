@@ -9,11 +9,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  margin-bottom: 1rem;
 
   &__feature {
     font-size: 1.5rem;
     list-style-type: none;
+    margin: 0.5rem 1rem;
   }
 }
 
