@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/LaurelLuxuryGardens/static/css/main.e0240c65.css",
-    "main.js": "/LaurelLuxuryGardens/static/js/main.ffd691cc.js",
+    "main.css": "/LaurelLuxuryGardens/static/css/main.1b929155.css",
+    "main.js": "/LaurelLuxuryGardens/static/js/main.70e2c926.js",
     "static/media/2.jpg": "/LaurelLuxuryGardens/static/media/2.2905e690b87647fd4e54.jpg",
     "static/media/testHeader.jpeg": "/LaurelLuxuryGardens/static/media/testHeader.2905e690b87647fd4e54.jpeg",
     "static/media/1.jpeg": "/LaurelLuxuryGardens/static/media/1.e273831e4b6be3818bad.jpeg",
     "static/media/Logo.png": "/LaurelLuxuryGardens/static/media/Logo.36b19412c91d1f008177.png",
     "static/media/stolenDepaTall.jpg": "/LaurelLuxuryGardens/static/media/stolenDepaTall.4ca66571c106df1970ca.jpg",
     "index.html": "/LaurelLuxuryGardens/index.html",
-    "main.e0240c65.css.map": "/LaurelLuxuryGardens/static/css/main.e0240c65.css.map",
-    "main.ffd691cc.js.map": "/LaurelLuxuryGardens/static/js/main.ffd691cc.js.map"
+    "main.1b929155.css.map": "/LaurelLuxuryGardens/static/css/main.1b929155.css.map",
+    "main.70e2c926.js.map": "/LaurelLuxuryGardens/static/js/main.70e2c926.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0240c65.css",
-    "static/js/main.ffd691cc.js"
+    "static/css/main.1b929155.css",
+    "static/js/main.70e2c926.js"
   ]
 }
