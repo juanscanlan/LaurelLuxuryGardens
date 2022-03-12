@@ -4,15 +4,28 @@
   align-items: center;
   justify-content: center;
 
-  height: 100vh;
+  //height: 100vh;
   //margin-top: -4.8rem;
 
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-    url(../../../Assets/Images/testHeader.jpeg);
+  // background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+  //   url(../../../Assets/Images/Header/Banner);
 
-  //background-image: url(../../Assets/Images/testHeader.jpeg);
+  // background-image: url(../../../Assets/Images/Header/Banner);
+  // background-size: contain;
+  // background-repeat: no-repeat;
 
   &__title {
     color: #fff;
   }
+
+  &__img {
+    width: 100%;
+  }
 }
+
+// @media screen and (max-width: 500px) {
+//   .container {
+//     background-image: url(../../../Assets/Images/Header/BannerMobile);
+//     height: 50vh;
+//   }
+// }

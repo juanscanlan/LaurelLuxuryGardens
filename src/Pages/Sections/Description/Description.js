@@ -21,9 +21,7 @@ const Description = () => {
           Solicita más Información
         </a>
       </div>
-      <div className={styles.imageContainer}>
-        {/* <img src={Image} className={styles.image} alt="A rental property" /> */}
-      </div>
+      <div className={styles.imageContainer}></div>
     </div>
   );
 };
