@@ -23,6 +23,7 @@ const Display = (props) => {
       return house.name.toLowerCase() === currentHouse.toLowerCase();
     })
     .map((house) => house.features)[0];
+
   const currentHouseImages = HouseData[currentTowerTab]
     .filter((house) => {
       return house.name.toLowerCase() === currentHouse.toLowerCase();
@@ -60,26 +61,32 @@ const Display = (props) => {
 
   return (
     <div className={styles.container}>
-      <div>{houseFeaturesJSX}</div>
+      {/* <div>{houseFeaturesJSX}</div> */}
       <div className={styles.imageContainer}>
         <div className={styles.arrowContainer}>
-          <FontAwesomeIcon
-            className={styles.arrowContainer__icon}
-            icon={faArrowCircleLeft}
-            onClick={() => changeImageHandler(-1)}
-          />
-          <FontAwesomeIcon
-            className={styles.arrowContainer__icon}
-            icon={faArrowCircleRight}
-            onClick={() => changeImageHandler(1)}
-          />
+          {Object.keys(currentHouseImages).length > 1 ? (
+            <>
+              <FontAwesomeIcon
+                className={styles.arrowContainer__icon}
+                icon={faArrowCircleLeft}
+                onClick={() => changeImageHandler(-1)}
+              />
+              <FontAwesomeIcon
+                className={styles.arrowContainer__icon}
+                icon={faArrowCircleRight}
+                onClick={() => changeImageHandler(1)}
+              />
+            </>
+          ) : null}
         </div>
-        {currentImage === 0 ? (
-          <img className={styles.imageContainer__image} src={tempImage1} />
-        ) : null}
-        {currentImage === 1 ? (
+
+        <img
+          className={styles.imageContainer__image}
+          src={currentHouseImages[currentImage]}
+        />
+        {/* {currentImage === 1 ? (
           <img className={styles.imageContainer__image} src={tempImage2} />
-        ) : null}
+        ) : null} */}
       </div>
     </div>
   );

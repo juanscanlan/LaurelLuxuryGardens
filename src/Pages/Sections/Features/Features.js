@@ -20,10 +20,10 @@ const Features = () => {
   });
 
   return (
-    <>
+    <div className={styles.wholeContainer}>
       <h2 className={styles.title}>AMENIDADES Y SERVICIOS</h2>
       <div className={styles.container}>{featuresContent}</div>
-    </>
+    </div>
   );
 };
 

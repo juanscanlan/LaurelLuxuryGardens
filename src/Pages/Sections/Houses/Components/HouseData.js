@@ -10,8 +10,7 @@ const HouseData = {
         "1 Baño",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Chechen.jpg"),
       },
     },
     {
@@ -24,8 +23,7 @@ const HouseData = {
         "1 Baño",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Manglar.jpg"),
       },
     },
     {
@@ -39,8 +37,7 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Ceiba.jpg"),
       },
     },
     {
@@ -53,8 +50,7 @@ const HouseData = {
         "1 Baño",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Bosque.jpg"),
       },
     },
     {
@@ -68,8 +64,8 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Jardin1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Bosque/Jardin2.jpg"),
       },
     },
     {
@@ -84,8 +80,8 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Palmeras1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Bosque/Palmeras2.jpg"),
       },
     },
     {
@@ -100,8 +96,8 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Arrecife1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Bosque/Arrecife2.jpg"),
       },
     },
     {
@@ -116,8 +112,8 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Bosque/Cedro1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Bosque/Cedro2.jpg"),
       },
     },
   ],
@@ -133,8 +129,7 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Selva/Chaca.jpg"),
       },
     },
     {
@@ -148,8 +143,7 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Selva/Agave.jpg"),
       },
     },
     {
@@ -165,8 +159,7 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Selva/Roble.jpg"),
       },
     },
     {
@@ -182,8 +175,7 @@ const HouseData = {
         "Roof Garden",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Selva/Makulis.jpg"),
       },
     },
   ],
@@ -199,8 +191,8 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Jungla/Luum1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Jungla/Luum2.jpg"),
       },
     },
     {
@@ -214,8 +206,8 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Jungla/Caoba1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Jungla/Caoba2.jpg"),
       },
     },
     {
@@ -229,8 +221,8 @@ const HouseData = {
         "1 Espacio de Estacionamiento",
       ],
       images: {
-        0: require("../../../../Assets/Images/Houses/Temp/1.jpeg"),
-        1: require("../../../../Assets/Images/Houses/Temp/2.jpg"),
+        0: require("../../../../Assets/Images/Houses/Jungla/Kaan1.jpg"),
+        1: require("../../../../Assets/Images/Houses/Jungla/Kaan2.jpg"),
       },
     },
   ],
