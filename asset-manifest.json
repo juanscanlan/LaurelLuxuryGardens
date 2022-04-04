@@ -1,18 +1,40 @@
 {
   "files": {
-    "main.css": "/LaurelLuxuryGardens/static/css/main.7421c661.css",
-    "main.js": "/LaurelLuxuryGardens/static/js/main.646dd38f.js",
+    "main.css": "/LaurelLuxuryGardens/static/css/main.ae5d98eb.css",
+    "main.js": "/LaurelLuxuryGardens/static/js/main.5b8f2b2d.js",
     "static/media/2.jpg": "/LaurelLuxuryGardens/static/media/2.2905e690b87647fd4e54.jpg",
+    "static/media/Ceiba.jpg": "/LaurelLuxuryGardens/static/media/Ceiba.8a9362bcdd573bbd2d9c.jpg",
+    "static/media/Arrecife1.jpg": "/LaurelLuxuryGardens/static/media/Arrecife1.877b00b70ca77c1b2906.jpg",
+    "static/media/Caoba2.jpg": "/LaurelLuxuryGardens/static/media/Caoba2.6f8cd3e4bfe7a4edb269.jpg",
+    "static/media/Kaan1.jpg": "/LaurelLuxuryGardens/static/media/Kaan1.2fe351bbc43ee1a99336.jpg",
+    "static/media/Luum2.jpg": "/LaurelLuxuryGardens/static/media/Luum2.70d55644f117d41e1202.jpg",
+    "static/media/Jardin1.jpg": "/LaurelLuxuryGardens/static/media/Jardin1.66208a6959a5466dfb1c.jpg",
+    "static/media/Palmeras1.jpg": "/LaurelLuxuryGardens/static/media/Palmeras1.aa8a6e7550b0a37e4cd8.jpg",
+    "static/media/Cedro1.jpg": "/LaurelLuxuryGardens/static/media/Cedro1.f45c3a1229cb4a16eab5.jpg",
+    "static/media/Caoba1.jpg": "/LaurelLuxuryGardens/static/media/Caoba1.0d588afd755395758d8a.jpg",
+    "static/media/Chechen.jpg": "/LaurelLuxuryGardens/static/media/Chechen.71f9e386c8b4d27cfcfb.jpg",
+    "static/media/Agave.jpg": "/LaurelLuxuryGardens/static/media/Agave.07bb0f185bd345331f38.jpg",
+    "static/media/Kaan2.jpg": "/LaurelLuxuryGardens/static/media/Kaan2.b8509d7baadf36f326d6.jpg",
+    "static/media/Roble.jpg": "/LaurelLuxuryGardens/static/media/Roble.e7d5c7ac29b9f110ad6e.jpg",
+    "static/media/Manglar.jpg": "/LaurelLuxuryGardens/static/media/Manglar.971cc62b72fac13f3bc6.jpg",
+    "static/media/Arrecife2.jpg": "/LaurelLuxuryGardens/static/media/Arrecife2.6bd02ca18cda6d788443.jpg",
+    "static/media/Bosque.jpg": "/LaurelLuxuryGardens/static/media/Bosque.07e0dbd66dbb408a7fe6.jpg",
+    "static/media/Makulis.jpg": "/LaurelLuxuryGardens/static/media/Makulis.be9298f6afe332746904.jpg",
+    "static/media/Palmeras2.jpg": "/LaurelLuxuryGardens/static/media/Palmeras2.5a2f293c3357c44e129f.jpg",
+    "static/media/Luum1.jpg": "/LaurelLuxuryGardens/static/media/Luum1.5a61cc86d04e89d005ce.jpg",
+    "static/media/Jardin2.jpg": "/LaurelLuxuryGardens/static/media/Jardin2.d88f5fe53298b2794def.jpg",
+    "static/media/Cedro2.jpg": "/LaurelLuxuryGardens/static/media/Cedro2.56790ef0ae8f8edd6615.jpg",
     "static/media/1.jpeg": "/LaurelLuxuryGardens/static/media/1.e273831e4b6be3818bad.jpeg",
+    "static/media/Chaca.jpg": "/LaurelLuxuryGardens/static/media/Chaca.a28dc335dd61b7daade0.jpg",
     "static/media/Logo.png": "/LaurelLuxuryGardens/static/media/Logo.36b19412c91d1f008177.png",
     "static/media/Banner": "/LaurelLuxuryGardens/static/media/Banner.fea7519e1bb19f25cc0d",
     "static/media/descriptionBeachCozumel.jpg": "/LaurelLuxuryGardens/static/media/descriptionBeachCozumel.6dde43cfd3f8085db3f4.jpg",
     "index.html": "/LaurelLuxuryGardens/index.html",
-    "main.7421c661.css.map": "/LaurelLuxuryGardens/static/css/main.7421c661.css.map",
-    "main.646dd38f.js.map": "/LaurelLuxuryGardens/static/js/main.646dd38f.js.map"
+    "main.ae5d98eb.css.map": "/LaurelLuxuryGardens/static/css/main.ae5d98eb.css.map",
+    "main.5b8f2b2d.js.map": "/LaurelLuxuryGardens/static/js/main.5b8f2b2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7421c661.css",
-    "static/js/main.646dd38f.js"
+    "static/css/main.ae5d98eb.css",
+    "static/js/main.5b8f2b2d.js"
   ]
 }
