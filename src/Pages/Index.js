@@ -14,7 +14,6 @@ const Index = () => {
       <Video />
       <Houses />
       <Description />
-
       <Features />
       {/* <MapWrapper /> */}
       <Footer />

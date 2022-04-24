@@ -15,32 +15,95 @@
 
 .headerBanner {
   width: 100%;
-  height: 30rem;
-  background-position: center center;
+  height: 100vh;
+  background-position: center;
+
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
   animation: slideBg 22s linear infinite 0s;
   animation-timing-function: ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 5rem;
+    border-bottom: 1px solid #fff;
+    margin: 0 8rem;
+  }
+
+  &__subtitle {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(2rem);
+    -webkit-box-shadow: inset 0 0 0 1px #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+    width: 8.5em;
+    border-radius: 0.5em;
+    line-height: 2.5em;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
 }
 
 @keyframes slideBg {
   0% {
-    background-image: url("../../../Assets/Images/Header/Banner3.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner3.jpg);
   }
   20% {
-    background-image: url("../../../Assets/Images/Header/Banner1.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner1.jpg);
   }
   40% {
-    background-image: url("../../../Assets/Images/Header/Banner2.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner2.jpg);
   }
+
   60% {
-    background-image: url("../../../Assets/Images/Header/Banner4.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner4.jpg);
   }
   80% {
-    background-image: url("../../../Assets/Images/Header/Banner5.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner5.jpg);
   }
   100% {
-    background-image: url("../../../Assets/Images/Header/Banner3.jpg");
+    background-image: linear-gradient(
+        to top,
+        rgba(34, 34, 34, 0.1),
+        rgba(34, 34, 34, 0.9)
+      ),
+      url(../../../Assets/Images/Header/Banner3.jpg);
   }
 }

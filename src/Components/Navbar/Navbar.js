@@ -17,7 +17,7 @@ const Navbar = () => {
           Villas
         </a>
         <a className={styles.navigation__element} href="#virtualTour">
-          Tour Virtual
+          TourVirtual
         </a>
         <a className={styles.navigation__element} href="#contact">
           Contacto
