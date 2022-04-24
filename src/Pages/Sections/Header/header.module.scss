@@ -1,31 +1,46 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
 
-  //height: 100vh;
-  //margin-top: -4.8rem;
+//   &__title {
+//     color: #fff;
+//   }
 
-  // background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-  //   url(../../../Assets/Images/Header/Banner);
-
-  // background-image: url(../../../Assets/Images/Header/Banner);
-  // background-size: contain;
-  // background-repeat: no-repeat;
-
-  &__title {
-    color: #fff;
-  }
-
-  &__img {
-    width: 100%;
-  }
-}
-
-// @media screen and (max-width: 500px) {
-//   .container {
-//     background-image: url(../../../Assets/Images/Header/BannerMobile);
-//     height: 50vh;
+//   &__img {
+//     width: 100%;
 //   }
 // }
+
+.headerBanner {
+  width: 100%;
+  height: 30rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 22s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slideBg {
+  0% {
+    background-image: url("../../../Assets/Images/Header/Banner3.jpg");
+  }
+  20% {
+    background-image: url("../../../Assets/Images/Header/Banner1.jpg");
+  }
+  40% {
+    background-image: url("../../../Assets/Images/Header/Banner2.jpg");
+  }
+  60% {
+    background-image: url("../../../Assets/Images/Header/Banner4.jpg");
+  }
+  80% {
+    background-image: url("../../../Assets/Images/Header/Banner5.jpg");
+  }
+  100% {
+    background-image: url("../../../Assets/Images/Header/Banner3.jpg");
+  }
+}

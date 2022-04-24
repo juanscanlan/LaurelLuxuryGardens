@@ -1,11 +1,14 @@
+import styles from "./houses.module.scss";
+
 import Header from "./Components/Header";
 import Display from "./Components/Display";
 
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faTree, faSeedling } from "@fortawesome/free-solid-svg-icons";
+import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
-import styles from "./Components/header.module.scss";
+// import styles from "./Components/header.module.scss";
 import HouseNames from "./Components/HouseNames";
 import HouseData from "./Components/HouseData";
 
@@ -41,12 +44,13 @@ const Houses = () => {
   };
 
   return (
-    <div>
+    <div id="villas" className={styles.container}>
+      <h3 className={styles.title}>Conoce nuestras Villas</h3>
       <div>
         <div className={styles.towerContainer}>
-          {towerTabJSX("bosque", faHouse)}
-          {towerTabJSX("selva", faHouse)}
-          {towerTabJSX("jungla", faHouse)}
+          {towerTabJSX("bosque", faTree)}
+          {towerTabJSX("selva", faSeedling)}
+          {towerTabJSX("jungla", faPagelines)}
         </div>
         <HouseNames
           currentTowerTab={currentTowerTab}

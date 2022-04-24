@@ -1,0 +1,28 @@
+.wholeContainer {
+  background: linear-gradient(
+      to top,
+      rgba(34, 34, 34, 1),
+      rgba(34, 34, 34, 0.9)
+    ),
+    url(../../../Assets/Images/General/BannerPoolView.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__logo {
+    max-width: 30rem;
+    margin-bottom: 3rem;
+  }
+
+  &__span {
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+}

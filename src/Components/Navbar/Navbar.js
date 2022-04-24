@@ -1,10 +1,10 @@
-import logo from "../../Assets/Images/Logo/Logo.png";
+import logo from "../../Assets/Images/Logo/LogoWhiteStroke.png";
 
 import styles from "./navbar.module.scss";
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="home">
       <a className={styles.container__logoAnchor} href="#">
         <img
           className={styles.container__logoImage}
@@ -13,11 +13,18 @@ const Navbar = () => {
         />
       </a>
       <div className={styles.navigation}>
-        <span className={styles.navigation__element}>Inicio</span>
-        <span className={styles.navigation__element}>Villas</span>
-        <span className={styles.navigation__element}>Tour Virtual</span>
-        <span className={styles.navigation__element}>Contacto</span>
-        <span className={styles.navigation__element}>🇺🇸</span>
+        <a className={styles.navigation__element} href="#villas">
+          Villas
+        </a>
+        <a className={styles.navigation__element} href="#virtualTour">
+          Tour Virtual
+        </a>
+        <a className={styles.navigation__element} href="#contact">
+          Contacto
+        </a>
+        <a className={styles.navigation__element} href="#villas">
+          🇺🇸
+        </a>
       </div>
     </div>
   );

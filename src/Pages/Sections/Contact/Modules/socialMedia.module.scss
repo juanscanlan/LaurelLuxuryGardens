@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  //background-color: #fff;
+
+  &__whatsapp,
+  &__messenger,
+  &__form {
+    margin: 0 1rem;
+  }
+
+  &__whatsapp,
+  &__messenger {
+    font-size: 5rem;
+  }
+
+  &__whatsapp {
+    color: #25d366;
+  }
+
+  &__messenger {
+    color: #006aff;
+  }
+
+  &__form {
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+  }
+}
+
+.formIcon {
+  margin: 0 0.5rem;
+}
