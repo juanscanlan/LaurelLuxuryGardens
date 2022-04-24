@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LaurelLuxuryGardens/static/css/main.2e6aea79.css",
-    "main.js": "/LaurelLuxuryGardens/static/js/main.81ca8720.js",
+    "main.css": "/LaurelLuxuryGardens/static/css/main.09d20044.css",
+    "main.js": "/LaurelLuxuryGardens/static/js/main.3ba454a6.js",
     "static/media/LaurelLuxuryVideo.mp4": "/LaurelLuxuryGardens/static/media/LaurelLuxuryVideo.9ac33b0c974e5ee4ed34.mp4",
     "static/media/Banner1.jpg": "/LaurelLuxuryGardens/static/media/Banner1.1168c592c171cd25c4f6.jpg",
     "static/media/Banner3.jpg": "/LaurelLuxuryGardens/static/media/Banner3.e7c32684ad02acf37f66.jpg",
@@ -37,11 +37,11 @@
     "static/media/LogoWhiteStroke.png": "/LaurelLuxuryGardens/static/media/LogoWhiteStroke.bc6ca558042fcf777281.png",
     "static/media/descriptionBeachCozumel.jpg": "/LaurelLuxuryGardens/static/media/descriptionBeachCozumel.6dde43cfd3f8085db3f4.jpg",
     "index.html": "/LaurelLuxuryGardens/index.html",
-    "main.2e6aea79.css.map": "/LaurelLuxuryGardens/static/css/main.2e6aea79.css.map",
-    "main.81ca8720.js.map": "/LaurelLuxuryGardens/static/js/main.81ca8720.js.map"
+    "main.09d20044.css.map": "/LaurelLuxuryGardens/static/css/main.09d20044.css.map",
+    "main.3ba454a6.js.map": "/LaurelLuxuryGardens/static/js/main.3ba454a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6aea79.css",
-    "static/js/main.81ca8720.js"
+    "static/css/main.09d20044.css",
+    "static/js/main.3ba454a6.js"
   ]
 }
