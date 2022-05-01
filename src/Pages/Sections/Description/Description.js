@@ -5,18 +5,18 @@ const Description = () => {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h3 className={styles.textContainer__title}>
-          TU CASA EN EL MEJOR DESTINO DE PLAYA EN COZUMEL
+          Descubre el Sueño Tropical en Cozumel
         </h3>
-        <p className={styles.textContainer__paragraph}>
-          Selvanova Residencial es un desarrollo en Playa del Carmen
-          perteneciente a Grupo Velas. Desde hace 8 años, Selvanova se ha
-          convertido en uno de los fraccionamientos residenciales más exclusivos
-          y de mejor reputación en la Riviera Maya, gracias a su estilo único,
-          que combina un entorno natural y moderno, con cómodas amenidades para
-          sus residentes. Te invitamos a conocer el Coto 8 y el Coto 9, parte de
-          la nueva fase residencial en Selvanova, una excelente opción para
-          invertir gracias a su ya demostrada calidad, respaldo, y plusvalía.
-        </p>
+        <ul className={styles.textContainer__paragraph}>
+          <li>Hogar del segundo arrecife de coral más grande del mundo</li>
+          <li>Playas tropicales de arena blanca mundialmente famosas</li>
+          <li>Uno de los principales destinos para buséo</li>
+          <li>Ambiente pácifico e immerso en la naturaleza</li>
+          <li>Moderna infraestructura insular</li>
+          <li>Servicios de salud,cuidado personal y equipo de primer nivel</li>
+          <li>La cuidad más segura de México</li>
+          <li>Nombrada "Isla de la Paz" en 2012</li>
+        </ul>
         <a href="#" className={styles.textContainer__button}>
           Solicita más Información
         </a>

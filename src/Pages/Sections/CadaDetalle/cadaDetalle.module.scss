@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 8.6rem;
+  margin: 0 2rem 8rem 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7rem;
+
+  &__image {
+    width: 43rem;
+  }
+}
+
+.textContainer {
+  max-width: 65rem;
+
+  &__title {
+    font-family: "Cinzel Decorative";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 2.2rem;
+  }
+
+  &__subtitle {
+    font-family: "Alegreya Sans SC";
+    font-style: normal;
+    font-weight: 250;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.textContainerUl {
+  margin: 0 1rem;
+  &__li {
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 34px;
+    list-style-position: outside;
+  }
+  &__li::marker {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imageContainer,
+  .textContainer__hideTitleMobile,
+  .textContainer__hideSubtitleMobile {
+    display: none;
+  }
+
+  .removeMarginBottomMobile {
+    margin-bottom: 0rem;
+  }
+}
