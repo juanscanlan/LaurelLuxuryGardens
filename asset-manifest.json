@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LaurelLuxuryGardens/static/css/main.37c86b48.css",
-    "main.js": "/LaurelLuxuryGardens/static/js/main.6d29458a.js",
+    "main.css": "/LaurelLuxuryGardens/static/css/main.92f49cd7.css",
+    "main.js": "/LaurelLuxuryGardens/static/js/main.dbc182de.js",
     "static/media/LaurelLuxuryVideo.mp4": "/LaurelLuxuryGardens/static/media/LaurelLuxuryVideo.9ac33b0c974e5ee4ed34.mp4",
     "static/media/Banner1.jpg": "/LaurelLuxuryGardens/static/media/Banner1.1168c592c171cd25c4f6.jpg",
     "static/media/Banner3.jpg": "/LaurelLuxuryGardens/static/media/Banner3.e7c32684ad02acf37f66.jpg",
@@ -9,6 +9,7 @@
     "static/media/Banner2.jpg": "/LaurelLuxuryGardens/static/media/Banner2.0c3bfedf794a970c7240.jpg",
     "static/media/Banner5.jpg": "/LaurelLuxuryGardens/static/media/Banner5.3a5bf39b30c6aad8721f.jpg",
     "static/media/Paradisiaco.jpg": "/LaurelLuxuryGardens/static/media/Paradisiaco.ec6a2ca9b7479b4a45fa.jpg",
+    "static/media/Descubre.png": "/LaurelLuxuryGardens/static/media/Descubre.0643de0f4f52c7bfde61.png",
     "static/media/Banner4.jpg": "/LaurelLuxuryGardens/static/media/Banner4.ac0012df49610cac83bd.jpg",
     "static/media/Exclusivo.jpg": "/LaurelLuxuryGardens/static/media/Exclusivo.ac0012df49610cac83bd.jpg",
     "static/media/Img3.jpg": "/LaurelLuxuryGardens/static/media/Img3.1d535605e2813f045a13.jpg",
@@ -55,12 +56,15 @@
     "static/media/Brisa.jpg": "/LaurelLuxuryGardens/static/media/Brisa.b629db67a7c4b903d2fd.jpg",
     "static/media/Amanecer.jpg": "/LaurelLuxuryGardens/static/media/Amanecer.e0b7d671761bb6cadb20.jpg",
     "static/media/Coral.jpg": "/LaurelLuxuryGardens/static/media/Coral.efd91f42e3283c858401.jpg",
+    "static/media/Showroom.png": "/LaurelLuxuryGardens/static/media/Showroom.ae75198081ae667cdbff.png",
+    "static/media/Tel.png": "/LaurelLuxuryGardens/static/media/Tel.6bbb91f0fa9d93c97a90.png",
+    "static/media/Correo.png": "/LaurelLuxuryGardens/static/media/Correo.e874b0a2ec2e1b5430a5.png",
     "index.html": "/LaurelLuxuryGardens/index.html",
-    "main.37c86b48.css.map": "/LaurelLuxuryGardens/static/css/main.37c86b48.css.map",
-    "main.6d29458a.js.map": "/LaurelLuxuryGardens/static/js/main.6d29458a.js.map"
+    "main.92f49cd7.css.map": "/LaurelLuxuryGardens/static/css/main.92f49cd7.css.map",
+    "main.dbc182de.js.map": "/LaurelLuxuryGardens/static/js/main.dbc182de.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c86b48.css",
-    "static/js/main.6d29458a.js"
+    "static/css/main.92f49cd7.css",
+    "static/js/main.dbc182de.js"
   ]
 }
