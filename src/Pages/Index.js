@@ -15,6 +15,8 @@ import CadaDetalleUno from "./Sections/CadaDetalle/CadaDetalleUno";
 import CadaDetalleDos from "./Sections/CadaDetalle/CadaDetalleDos";
 import RetornoDeInversion from "./Sections/RetornoDeInversion/RetornoDeInversion";
 import Pagos from "./Sections/Pagos/Pagos";
+import Contacto from "./Sections/Contacto/Contacto";
+import Descubre from "./Sections/Descubre/Descubre";
 
 const Index = () => {
   return (
@@ -22,6 +24,7 @@ const Index = () => {
       <Header />
       <Video />
       <Houses />
+      <Descubre />
       <Exclusivo />
       <Sustentable />
       <Paradisiaco />
@@ -29,10 +32,9 @@ const Index = () => {
       <CadaDetalleDos />
       <RetornoDeInversion />
       <Pagos />
-      <Description />
+
       <Features />
-      {/* <MapWrapper /> */}
-      <Footer />
+      <Contacto />
     </div>
   );
 };

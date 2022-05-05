@@ -66,52 +66,74 @@
 
 @keyframes slideBg {
   0% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner3.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner3.jpg);
   }
   20% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner1.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner1.jpg);
   }
   40% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner2.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner2.jpg);
   }
 
   60% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner4.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner4.jpg);
   }
   80% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner5.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner5.jpg);
   }
   100% {
-    background-image: linear-gradient(
-        to top,
-        rgba(34, 34, 34, 0.1),
-        rgba(34, 34, 34, 0.9)
-      ),
-      url(../../../Assets/Images/Header/Banner3.jpg);
+    background-image: url(../../../Assets/Images/Header/Banner3.jpg);
   }
 }
+
+// @keyframes slideBg {
+//   0% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner3.jpg);
+//   }
+//   20% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner1.jpg);
+//   }
+//   40% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner2.jpg);
+//   }
+
+//   60% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner4.jpg);
+//   }
+//   80% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner5.jpg);
+//   }
+//   100% {
+//     background-image: linear-gradient(
+//         to top,
+//         rgba(34, 34, 34, 0.1),
+//         rgba(34, 34, 34, 0.9)
+//       ),
+//       url(../../../Assets/Images/Header/Banner3.jpg);
+//   }
+// }

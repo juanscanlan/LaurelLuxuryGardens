@@ -6,12 +6,11 @@ const Video = () => {
   return (
     <div className={styles.container} id="virtualTour">
       <h3 className={styles.container__title}>Tour Virtual</h3>
-      <span className={styles.container__subtitle}>
-        Explora nuestras villas como si estuvieras ahí
-      </span>
+      <span className={styles.container__subtitle}>Explora tu nuevo hogar</span>
       <video
         muted
         loop
+        autoPlay
         controls="Play Pause"
         className={styles.container__video}
       >

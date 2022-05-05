@@ -74,7 +74,8 @@
 
   &__paragraph {
     font-family: "Alegreya Sans", sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 100;
     margin-bottom: 3rem;
   }
 }
@@ -84,6 +85,11 @@
   .container__hideTitleMobile {
     display: none;
   }
+
+  .container__title {
+    text-align: center;
+  }
+
   .container__mobileSpan {
     display: initial;
   }
