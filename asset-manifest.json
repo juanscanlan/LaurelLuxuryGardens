@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.66d6bbee.css",
-    "main.js": "./static/js/main.9e6a16ea.js",
+    "main.js": "./static/js/main.22566bdc.js",
     "static/media/LaurelLuxuryVideo.mp4": "./static/media/LaurelLuxuryVideo.c19b70111bd898075db0.mp4",
     "static/media/Banner1.jpg": "./static/media/Banner1.1168c592c171cd25c4f6.jpg",
     "static/media/Banner3.jpg": "./static/media/Banner3.e7c32684ad02acf37f66.jpg",
@@ -63,10 +63,10 @@
     "static/media/Correo.png": "./static/media/Correo.e874b0a2ec2e1b5430a5.png",
     "index.html": "./index.html",
     "main.66d6bbee.css.map": "./static/css/main.66d6bbee.css.map",
-    "main.9e6a16ea.js.map": "./static/js/main.9e6a16ea.js.map"
+    "main.22566bdc.js.map": "./static/js/main.22566bdc.js.map"
   },
   "entrypoints": [
     "static/css/main.66d6bbee.css",
-    "static/js/main.9e6a16ea.js"
+    "static/js/main.22566bdc.js"
   ]
 }
