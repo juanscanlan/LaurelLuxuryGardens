@@ -1,5 +1,5 @@
 {
-  "homepage": "http://juanscanlan.github.io/LaurelLuxuryGardens",
+  "homepage": "./",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",

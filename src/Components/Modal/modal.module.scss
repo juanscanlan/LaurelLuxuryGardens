@@ -1,0 +1,174 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+
+  max-width: 600px;
+  border-radius: 20px;
+  background-color: #edeae5;
+  // background-color: #373533;
+}
+
+.modalLogo {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 80px;
+
+  background: #fff;
+
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.closeBtn {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  font-size: 40px;
+
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: middle;
+  padding: 0px;
+
+  cursor: pointer;
+}
+
+.imgContainer {
+  //max-width: 500px;
+
+  & img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  // &__left,
+  // &__right {
+  //   width: 50%;
+  // }
+
+  // padding: 0 2rem;
+  padding-bottom: 10px;
+
+  // border-bottom: 1px solid #6e6d6b;
+
+  &__button {
+    box-shadow: 0px 24px 3px -24px #54988c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+    button {
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      background-color: #54988c;
+      padding: 4px 10px;
+      text-align: center;
+      border-radius: 5px;
+      border-color: none;
+
+      // width: 90%;
+      margin: 0 auto 10px auto;
+
+      font-family: "Alegreya Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 34px;
+
+      &:hover {
+        transform: translateY(-0.5rem) scale(1.03);
+      }
+    }
+  }
+
+  &__description {
+    //border-top: 0.5px solid #6e6d6b;
+    padding-top: 10px;
+  }
+
+  &__description,
+  &__email,
+  &__email span {
+    text-align: center;
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    list-style-position: outside;
+    margin-bottom: 10px;
+  }
+
+  &__email {
+    span {
+      font-weight: 400;
+      color: #54988c;
+      cursor: pointer;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      text-align: center;
+    }
+
+    input {
+      height: 30px;
+      margin: 4px 10px;
+      border: 1px solid rgb(107, 106, 106);
+      border-radius: 4px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.backgroundOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.586);
+  z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90vw;
+  }
+
+  .textContainer__left {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .textContainer__left,
+  .textContainer__right {
+    width: 100% !important;
+  }
+}

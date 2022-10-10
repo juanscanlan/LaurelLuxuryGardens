@@ -34,6 +34,8 @@
 *::before,
 *::after {
   box-sizing: inherit;
+
+  transition: all 0.2s linear;
 }
 
 html {
@@ -46,4 +48,20 @@ html {
 body {
   font-weight: 400;
   line-height: 1.6;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.hide {
+  display: none;
 }

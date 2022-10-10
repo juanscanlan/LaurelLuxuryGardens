@@ -10,9 +10,14 @@
   &__house {
     font-size: 1.6rem;
     font-weight: 600;
+    cursor: pointer;
 
     &--active {
       color: #c8a05d;
+    }
+
+    &:hover {
+      transform: translateY(-0.5rem) scale(1.03);
     }
   }
 }

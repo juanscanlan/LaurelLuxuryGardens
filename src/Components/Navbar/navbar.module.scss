@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  z-index: 100000;
+  z-index: 1;
 
   position: fixed;
 
@@ -33,10 +33,39 @@
   font-family: "Alegreya Sans";
   font-style: normal;
   font-weight: 250;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 38px;
   margin: 0 2rem;
   color: black;
+
+  &:hover {
+    transform: translateY(-0.5rem) scale(1.03);
+  }
+}
+
+.navigationMobileContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &__book {
+    background-color: #edeae5;
+    border: 1px solid black;
+    padding: 0px 10px;
+    border-radius: 20px;
+
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 38px;
+
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-0.5rem) scale(1.03);
+    }
+  }
 }
 
 .navigationMobile {
@@ -74,7 +103,7 @@
   display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .container__logoImage {
     height: 80%;
   }

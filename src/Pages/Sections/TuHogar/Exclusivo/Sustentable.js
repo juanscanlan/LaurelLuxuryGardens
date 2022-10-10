@@ -12,13 +12,13 @@ const Sustentable = () => {
   let feature1 = {
     icon: energiaIcon,
     title: "Energía Verde",
-    paragraph: "Áreas verdes en cada dirección de tu hogar",
+    paragraph: "Generación de energía mediante paneles solares",
   };
 
   let feature2 = {
     icon: jardinesIcon,
-    title: "Energía Verde",
-    paragraph: "Áreas verdes en cada dirección de tu hogar",
+    title: "Amplios Jardines",
+    paragraph: "Áreasverdes en cada dirección de tu hogar",
   };
 
   let feature3 = {

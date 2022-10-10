@@ -5,7 +5,7 @@ import styles from "./retornoDeInversion.module.scss";
 
 const RetornoDeInversion = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="roi">
       <h3 className={styles.container__title}>Retorno De Inversion</h3>
       <div className={styles.textContainer}>
         <div className={styles.textBlock}>
@@ -26,7 +26,7 @@ const RetornoDeInversion = () => {
             inversionistas pueden esperar un
             <span className={styles.textBlock__paragraph_bold}>
               <span> </span>
-              retorno del 12%
+              retorno de más del 12%
               <span> </span>
             </span>
             sobre la inversión.

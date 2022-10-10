@@ -17,12 +17,17 @@ import RetornoDeInversion from "./Sections/RetornoDeInversion/RetornoDeInversion
 import Pagos from "./Sections/Pagos/Pagos";
 import Contacto from "./Sections/Contacto/Contacto";
 import Descubre from "./Sections/Descubre/Descubre";
+import Modal from "../Components/Modal/Modal";
+import InstantChat from "../Components/InstantChat/InstantChat";
 
 const Index = () => {
   return (
     <div>
-      <Header />
-      <Video />
+      <Modal />
+      {/* <Header /> */}
+
+      <InstantChat />
+      {/* <Video /> */}
       <Houses />
       <Descubre />
       <Exclusivo />

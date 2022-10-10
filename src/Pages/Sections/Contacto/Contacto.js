@@ -12,25 +12,34 @@ const Contacto = () => {
         <div className={styles.contactContainer}>
           <img className={styles.contactContainer__img} src={showroomImg} />
           <h4 className={styles.contactContainer__title}>Showroom</h4>
-          <p className={styles.contactContainer__text}>
-            25 South AV & 5 South Street, 77600. Cozumel Quintana Roo.
-          </p>
+          <a
+            className={styles.contactContainer__text}
+            href="https://goo.gl/maps/kr4BVJWRzcjcuZkbA"
+            target="_blank"
+          >
+            Calle 31 Sur 141, Colonos Cuzamil, 77600 San Miguel de Cozumel,
+            Q.R., Mexico
+          </a>
         </div>
         <div className={styles.contactContainer}>
           <img className={styles.contactContainer__img} src={telImg} />
           <h4 className={styles.contactContainer__title}>Teléfono & Celular</h4>
-          <p className={styles.contactContainer__text}>
+          <a href="tel:+529871381435" className={styles.contactContainer__text}>
             English +52 987 138 14 35
-            <br />
+          </a>
+          <a href="tel:+529871112072" className={styles.contactContainer__text}>
             Spanish +52 987 111 20 72
-          </p>
+          </a>
         </div>
         <div className={styles.contactContainer}>
           <img className={styles.contactContainer__img} src={correoImg} />
           <h4 className={styles.contactContainer__title}>Correo Electrónico</h4>
-          <p className={styles.contactContainer__text}>
-            laurelluxurygardens@gmail.com
-          </p>
+          <a
+            href="mailto:ventas@laurelluxurygardens.com"
+            className={styles.contactContainer__text}
+          >
+            ventas@laurelluxurygardens.com
+          </a>
         </div>
       </div>
     </div>

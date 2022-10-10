@@ -37,11 +37,9 @@ const Exclusivo = () => {
           </div>
           <div className={styles.featureBox}>
             <img className={styles.featureBox__icon} src={diesnoImg} />
-            <span className={styles.featureBox__title}>
-              Ubicación Privilegiada
-            </span>
+            <span className={styles.featureBox__title}>Diseño de Lujo</span>
             <p className={styles.featureBox__paragraph}>
-              Encuéntrate a solo 6 minutos a pie del Mar Caribe
+              Porque primera línea es la única opción
             </p>
           </div>
         </div>

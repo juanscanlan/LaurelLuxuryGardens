@@ -27,6 +27,14 @@ const Navbar = () => {
     });
   });
 
+  const handleOpenBook = () => {
+    let modalEls = document.querySelectorAll(".modal");
+
+    modalEls.forEach((el) => {
+      el.classList.remove("hide");
+    });
+  };
+
   return (
     <div className={styles.container} id="home">
       <a className={styles.container__logoAnchor} href="#">
@@ -41,51 +49,84 @@ const Navbar = () => {
           TourVirtual
         </a>
         <a className={styles.navigation__element} href="#villas">
-          Villas
+          Casas
         </a>
-
+        <a className={styles.navigation__element} href="#roi">
+          Inversionistas
+        </a>
+        <a className={styles.navigation__element} href="#amenidades">
+          Amenidades
+        </a>
+        <a className={styles.navigation__element} href="#pagos">
+          Esquema de pagos
+        </a>
         <a className={styles.navigation__element} href="#contacto">
           Contacto
         </a>
-        <a className={styles.navigation__element} href="#eng">
+        {/* <a className={styles.navigation__element} href="#eng">
           🇺🇸
-        </a>
+        </a> */}
       </div>
-
-      <div className={styles.navigationMobile}>
-        <FontAwesomeIcon
-          id="burgerIcon"
-          className={styles.navigationMobile__burgerIcon}
-          icon={faBars}
-          onClick={() => mobileBurgerOnClickHandler()}
-        />
+      <div className={styles.navigationMobileContainer}>
         <div
-          id="burgerMenu"
-          className={`${styles.navigationMobile__burgerMenu} ${
-            burgerActive ? null : styles.hide
-          }`}
+          className={styles.navigationMobileContainer__book}
+          onClick={handleOpenBook}
         >
-          <a
-            className={styles.navigationMobile__burgerMenu__element}
-            href="#virtualTour"
+          Book a call
+        </div>
+        <div className={styles.navigationMobile}>
+          <FontAwesomeIcon
+            id="burgerIcon"
+            className={styles.navigationMobile__burgerIcon}
+            icon={faBars}
+            onClick={() => mobileBurgerOnClickHandler()}
+          />
+          <div
+            id="burgerMenu"
+            className={`${styles.navigationMobile__burgerMenu} ${
+              burgerActive ? null : styles.hide
+            }`}
           >
-            Virtual Tour
-          </a>
-          <a
-            className={styles.navigationMobile__burgerMenu__element}
-            href="#villas"
-          >
-            Villas
-          </a>
-          <a
-            className={styles.navigationMobile__burgerMenu__element}
-            href="#contacto"
-          >
-            Contact
-          </a>
-          <a className={styles.navigationMobile__burgerMenu__element}>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#virtualTour"
+            >
+              Virtual Tour
+            </a>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#villas"
+            >
+              Casas
+            </a>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#roi"
+            >
+              Inversionistas
+            </a>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#pagos"
+            >
+              Esquema de pagos
+            </a>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#amenidades"
+            >
+              Amenidades
+            </a>
+            <a
+              className={styles.navigationMobile__burgerMenu__element}
+              href="#contacto"
+            >
+              Contacto
+            </a>
+            {/* <a className={styles.navigationMobile__burgerMenu__element}>
             English 🇺🇸
-          </a>
+          </a> */}
+          </div>
         </div>
       </div>
     </div>

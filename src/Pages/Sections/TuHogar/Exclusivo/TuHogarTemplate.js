@@ -1,10 +1,5 @@
 import styles from "./exclusivo.module.scss";
 
-import exclusivoImg from "../../../../Assets/Images/TuHogar/Exclusivo.jpg";
-import ubicacionImg from "../../../../Assets/Images/TuHogar/Icons/Ubicacion.png";
-import limitadoImg from "../../../../Assets/Images/TuHogar/Icons/Limitado.png";
-import diesnoImg from "../../../../Assets/Images/TuHogar/Icons/Diseno.png";
-
 const Exclusivo = ({
   imageTitle,
   imageFile,
@@ -13,7 +8,6 @@ const Exclusivo = ({
   feature3,
   hideTitleMobile,
 }) => {
-  console.log(feature1.icon);
   return (
     <div className={styles.container}>
       <h3

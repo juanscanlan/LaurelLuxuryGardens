@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  max-width: 1200px;
+  margin: auto;
 }
 
 .featuresContainer {
@@ -20,7 +23,7 @@
 
 .imageContainer {
   position: relative;
-  max-width: 52rem;
+  padding: 1rem;
   &__image {
     width: 100%;
   }
@@ -37,4 +40,18 @@
   &__icon {
     font-size: 3rem;
   }
+}
+
+.fullpageImage {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
 }
