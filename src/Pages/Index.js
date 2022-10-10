@@ -24,10 +24,9 @@ const Index = () => {
   return (
     <div>
       <Modal />
-      {/* <Header /> */}
-
+      <Header />
       <InstantChat />
-      {/* <Video /> */}
+      <Video />
       <Houses />
       <Descubre />
       <Exclusivo />
@@ -37,7 +36,6 @@ const Index = () => {
       <CadaDetalleDos />
       <RetornoDeInversion />
       <Pagos />
-
       <Features />
       <Contacto />
     </div>
